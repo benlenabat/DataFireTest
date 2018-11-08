@@ -1,0 +1,7 @@
+options:
+  cors: true
+actions:
+  xkdc_latest: ./actions/xkdc_latest.js
+tests:
+  test:
+    action: xkdc_latest
