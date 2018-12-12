@@ -13,9 +13,9 @@ module.exports = new datafire.Action({
       spreadsheetId: "1LRItpbHj3LlaZE5gZrdOoKBuYsItJTaXksvoUGlIDWA",
       body: {
         range: "B4:B4",
-        values: [
-          [valueRange]
-        ],
+        values: [[
+          valueRange
+        ]],
       },
     }, context);
     return updateValuesResponse;
